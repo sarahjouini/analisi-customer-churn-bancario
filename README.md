@@ -38,6 +38,9 @@ Alcune possibili azioni che una banca potrebbe considerare sulla base di questi 
 - **Attenzione alla fascia di clientela più anziana**: potrebbero avere esigenze finanziarie diverse (es. pensione, successione patrimoniale) che la banca non sta soddisfacendo adeguatamente con l'offerta attuale.
 - **Il numero di prodotti non è una leva efficace da solo**: aumentare il cross-selling di prodotti non sembra sufficiente a trattenere i clienti; servono altre strategie più mirate ai fattori che contano davvero (età, saldo, area geografica).
 
+**Dashboard Power BI**
+Ho creato una dashboard con i tre insight principali del progetto, pensata per essere capita anche da chi non ha background tecnico. I tre grafici mostrano: la percentuale di abbandono clienti per paese (più alta in Germania), l'età media dei clienti che abbandonano rispetto a chi resta (i clienti che abbandonano sono più anziani), e il saldo medio per gruppo (chi abbandona ha saldi più alti, probabilmente perché ha più alternative sul mercato).
+
 ## Tecniche Python/pandas utilizzate
 - `pd.read_csv()` per caricare il dataset
 - `value_counts()` e `value_counts(normalize=True)` per calcolare frequenze e percentuali
