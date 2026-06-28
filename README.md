@@ -56,8 +56,5 @@ Ho creato una dashboard con i tre insight principali del progetto, pensata per e
 ## Strumenti
 - Python (pandas)
 - Visual Studio Code + Jupyter
+- Power BI
 
-## Prossimi passi
-- Analisi di altre variabili (es. attività del cliente, possesso di carta di credito)
-- Visualizzazioni con grafici per rendere gli insight più immediati
-- Possibile approfondimento con tecniche di analisi predittiva
