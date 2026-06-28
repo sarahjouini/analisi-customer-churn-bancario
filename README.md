@@ -26,6 +26,11 @@ Fonte: [Bank Customer Churn Dataset - Kaggle](https://www.kaggle.com/datasets/ga
 
 5. **Quale paese ha la percentuale di abbandono più alta?**
    La **Germania** ha una percentuale di abbandono del **32%**, quasi il doppio rispetto a Francia e Spagna (entrambe intorno al **16-17%**).
+   6. **I clienti con carta di credito abbandonano meno di quelli senza?**
+   La differenza è minima tra le due categorie — anche questo fattore, come il numero di prodotti, non sembra influenzare in modo significativo l'abbandono.
+
+7. **I clienti attivi (active_member) abbandonano meno di quelli non attivi?**
+   Risultato: questo è l'indicatore più forte trovato in tutto il progetto. I clienti **non attivi** hanno una percentuale di abbandono del **26,8%**, contro solo il **14,3%** dei clienti **attivi** — quasi il doppio. L'attività del cliente sembra essere un segnale molto più predittivo rispetto a età, saldo o paese.
 
 ## Implicazioni di business e possibili azioni
 
@@ -37,7 +42,8 @@ Alcune possibili azioni che una banca potrebbe considerare sulla base di questi 
 - **Approfondire la situazione del mercato tedesco**: la percentuale di abbandono doppia rispetto agli altri paesi suggerisce un problema specifico (concorrenza locale più aggressiva, insoddisfazione del servizio, normative diverse) che meriterebbe un'indagine qualitativa oltre a quella quantitativa fatta qui.
 - **Attenzione alla fascia di clientela più anziana**: potrebbero avere esigenze finanziarie diverse (es. pensione, successione patrimoniale) che la banca non sta soddisfacendo adeguatamente con l'offerta attuale.
 - **Il numero di prodotti non è una leva efficace da solo**: aumentare il cross-selling di prodotti non sembra sufficiente a trattenere i clienti; servono altre strategie più mirate ai fattori che contano davvero (età, saldo, area geografica).
-
+**L'insight più rilevante del progetto riguarda l'attività del cliente**: chi non è "attivo" ha una probabilità di abbandono quasi doppia rispetto a chi lo è. Questo suggerisce che la banca dovrebbe investire prioritariamente in strategie che mantengono i clienti coinvolti nell'uso quotidiano dei servizi (notifiche personalizzate, incentivi all'utilizzo dell'app, programmi fedeltà legati alla frequenza d'uso) piuttosto che basarsi solo su caratteristiche demografiche statiche come età o paese, che sono utili per segmentare ma meno per intervenire concretamente.
+  
 **Dashboard Power BI**
 Ho creato una dashboard con i tre insight principali del progetto, pensata per essere capita anche da chi non ha background tecnico. I tre grafici mostrano: la percentuale di abbandono clienti per paese (più alta in Germania), l'età media dei clienti che abbandonano rispetto a chi resta (i clienti che abbandonano sono più anziani), e il saldo medio per gruppo (chi abbandona ha saldi più alti, probabilmente perché ha più alternative sul mercato).
 
